@@ -24,3 +24,6 @@ def Traversal(head):
 node1 = SinglyLinkedListNodes(10)
 node2 = SinglyLinkedListNodes(20)
 node3 = SinglyLinkedListNodes(30)
+node1.next = node2
+node2.next = node3
+Traversal(node1)
