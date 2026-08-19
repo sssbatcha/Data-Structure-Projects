@@ -26,7 +26,8 @@ def search(node):
     if node:
         return "Empty Tree"
     else:
-        
+        pass
+
 node1 = DoublelyLinkedList(10)        
 node2 = DoublelyLinkedList(20)
 node3 = DoublelyLinkedList(30)
